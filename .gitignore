@@ -1,2 +1,4 @@
 venv
 config.py
+uploads/
+.DS_Store
