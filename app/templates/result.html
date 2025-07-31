@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><title>Result</title></head>
+<body>
+    <h1>Parsed PDF Content</h1>
+    {% for page in data %}
+        <pre>{{ page }}</pre>
+        <hr>
+    {% endfor %}
+</body>
+</html>
